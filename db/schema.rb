@@ -16,6 +16,14 @@ ActiveRecord::Schema.define(version: 2018_12_06_080645) do
     t.integer "user_id"
     t.string "description"
     t.string "image"
+    t.string "construction_work_contents"
+    t.string "occupation"
+    t.string "drawing"
+    t.string "construction_site_picture"
+    t.string "address"
+    t.string "suitable_time"
+    t.integer "budget"
+    t.string "important_think"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
